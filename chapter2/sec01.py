@@ -6,3 +6,8 @@ print(1 + 2)
 
 print("Hello World")
 
+var1 = 100
+var2 = "Hello World!"
+
+print(var1)
+print(var2)
