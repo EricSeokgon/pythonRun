@@ -11,3 +11,8 @@ var2 = "Hello World!"
 
 print(var1)
 print(var2)
+
+print(5 + 5)
+
+my_var = "Hello"
+print(my_var + " Python")
