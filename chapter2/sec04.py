@@ -11,3 +11,9 @@ color = raw_input("가장 좋아하는 색은?")
 # =>빨간색 입력
 print(color)
 # =>빨간색 출력
+
+int = raw_input("원하는 숫자를 입력해 주세요 :")
+# => 100 입력
+int + 1
+# TypeError : cannot concatenate 'str' and 'int' objects
+
