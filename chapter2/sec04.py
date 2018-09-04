@@ -17,3 +17,7 @@ int = raw_input("원하는 숫자를 입력해 주세요 :")
 int + 1
 # TypeError : cannot concatenate 'str' and 'int' objects
 
+animal = raw_input("가장 좋아하는 동물은 ? ")
+year = input("지금은 몇 년도 인가요? ")
+print(animal)
+print(year)
