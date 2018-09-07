@@ -9,3 +9,7 @@ print(a[4])
 
 a = "I love coffee"
 print(a[0:5])
+
+a = "python is fun"
+print(a[2])
+print(a[5:11])
