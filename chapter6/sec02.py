@@ -5,3 +5,5 @@ my_dic = {'name': 'abc', 'year': 2015, 'age': 20}
 
 print(my_dic.key())
 print(my_dic.values())
+
+print(my_dic.items())
