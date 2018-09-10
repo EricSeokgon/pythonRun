@@ -23,3 +23,15 @@ print(a[2:])
 
 a[2] = 'hi'
 print(a)
+
+a = [1, 6, 5, 3, 4, 2]
+
+print(a.index(6))
+print(a.append(7))
+print(a.append([8, 9]))
+
+print(a.pop())
+print(a.sort())
+print(a.remove(6))
+print(a.insert(0, [7, 1]))
+print(a.remove(6))
