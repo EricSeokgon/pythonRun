@@ -7,3 +7,8 @@ for i in range(10):
 L = ['one', 'two', 'three', 'four', 'five']
 for i in L:
     print(i)
+
+i = 0
+while i < 10:
+    print(i)
+    i = i + 1
