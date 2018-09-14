@@ -2,6 +2,6 @@
 # UTF-8 encoding when using korean
 
 f = open("read.txt", 'r')
-line = f.readline()
+line = f.read()
 print(line)
 f.close()
