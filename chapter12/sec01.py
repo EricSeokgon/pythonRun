@@ -13,3 +13,15 @@ car_year2 = 2009
 car_brand3 = "BMW"
 car_color3 = "black"
 car_year3 = 2000
+
+
+class Car:
+    def __init__(self, brand, color, year):
+        self.brand = brand
+        self.color = color
+        self.year = year
+
+
+car1 = Car("Toyota", "red", 1996)
+car2 = Car("Hyundi", "blue", 2006)
+car3 = Car("BMW", "black", 2000)
