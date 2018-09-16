@@ -22,9 +22,12 @@ class Car:
         self.year = year
 
     honk = "빵빵"
-    print(honk)
+
+    def info(self, color, year):
+        print("color : %s, year:%d" % (color, year))
 
 
 car1 = Car("Toyota", "red", 1996)
 car2 = Car("Hyundi", "blue", 2006)
 car3 = Car("BMW", "black", 2000)
+
