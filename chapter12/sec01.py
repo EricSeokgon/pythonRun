@@ -16,18 +16,16 @@ car_year3 = 2000
 
 
 class Car:
-    def __init__(self, brand, color, year):
-        self.brand = brand
+    honk = "빵빵"
+
+    def set_info(self, color, year):
         self.color = color
         self.year = year
 
-    honk = "빵빵"
-
-    def info(self, color, year):
-        print("color : %s, year:%d" % (color, year))
+    def get_info(self):
+        print("color : %s, year : %d" % (self.color, self.year))
 
 
-car1 = Car("Toyota", "red", 1996)
-car2 = Car("Hyundi", "blue", 2006)
-car3 = Car("BMW", "black", 2000)
-
+my_car = Car()
+my_car.set_info("red", 2017)
+my_car.get_info()
