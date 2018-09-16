@@ -21,6 +21,9 @@ class Car:
         self.color = color
         self.year = year
 
+    honk = "빵빵"
+    print(honk)
+
 
 car1 = Car("Toyota", "red", 1996)
 car2 = Car("Hyundi", "blue", 2006)
