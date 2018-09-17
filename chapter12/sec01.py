@@ -29,3 +29,19 @@ class Car:
 
 my_car = Car("red", 2017)
 my_car.get_info()
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def info(self):
+        print("이름: %s, 나이 : %d " % (self.name, self.age))
+
+
+class Employee(Person):
+    pass
+
+em = Employee("goorm", 20)
+em.info()
