@@ -41,7 +41,12 @@ class Person:
 
 
 class Employee(Person):
-    pass
+    def info(self):
+        print("나는 자식 클래스 입니다.")
+
+
+per = Person("Python", 100)
+per.info()
 
 em = Employee("goorm", 20)
 em.info()
