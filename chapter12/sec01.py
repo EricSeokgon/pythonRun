@@ -18,14 +18,14 @@ car_year3 = 2000
 class Car:
     honk = "빵빵"
 
-    def set_info(self, color, year):
+    def __init__(self, color, year):
         self.color = color
         self.year = year
+        print("새로운 Car 인스턴스가 생성되었습니다.")
 
     def get_info(self):
         print("color : %s, year : %d" % (self.color, self.year))
 
 
-my_car = Car()
-my_car.set_info("red", 2017)
+my_car = Car("red", 2017)
 my_car.get_info()
