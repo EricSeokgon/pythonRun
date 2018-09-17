@@ -37,7 +37,7 @@ class Person:
         self.age = age
 
     def info(self):
-        print("이름: %s, 나이 : %d " % (self.name, self.age))
+        print("나는 부모 클래스 입니다.")
 
 
 class Employee(Person):
