@@ -3,5 +3,5 @@
 
 import my_module
 
-print(my_module.three_time(10))
+print(my_module.three_times(10))
 print(my_module.ten_times(10))
