@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="calculator" />
+          <option value="my_module" />
         </list>
       </option>
     </inspection_tool>

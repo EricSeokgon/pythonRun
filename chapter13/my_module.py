@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # UTF-8 encoding when using korean
 
-def three_time(a):
+def three_times(a):
     return a * 3
 
 
-def ten_time(a):
+def ten_times(a):
     return a * 10
